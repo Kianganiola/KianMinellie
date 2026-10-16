@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #ea5826;
+  color: white;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.nav-links a.active-link {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 4px;
+}
+
+.login-btn {
+  background-color: #ffffff;
+  color: #ea5826;
+  border: none;
+  padding: 0.5rem 1.4rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-1px);
+}
+
+.cart-badge {
+  background-color: #ffffff;
+  color: #ea5826;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 50%;
+  margin-left: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}

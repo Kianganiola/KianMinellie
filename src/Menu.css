@@ -1,0 +1,57 @@
+.menu-page-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.menu-sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.sidebar-title {
+  color: #555;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.category-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.category-list li {
+  color: #777777;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.category-list li:hover {
+  color: #ea5826;
+}
+
+.category-list li.active {
+  color: #ea5826;
+}
+
+.menu-main {
+  flex: 1;
+}
+
+.login-status-msg {
+  margin-bottom: 2rem;
+  color: #888888;
+  font-size: 0.95rem;
+}
+
+.drink-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 2.5rem 2rem;
+}
